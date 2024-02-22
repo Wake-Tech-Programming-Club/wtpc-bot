@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Start the bot",
+            "command": "python -m bot",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}
