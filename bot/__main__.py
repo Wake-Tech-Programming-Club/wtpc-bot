@@ -1,9 +1,9 @@
 import dotenv
 import os
-from . import bot
+from . import client
 
 
 dotenv.load_dotenv()
 
 
-bot.run(os.environ["API_KEY"])
+client.run(os.environ["API_KEY"])
