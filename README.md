@@ -2,6 +2,7 @@
 
 The Wake Tech Programming Club Discord bot.
 
+-   [Local Setup Video Guide](https://waketechedu-my.sharepoint.com/:v:/g/personal/djoliver_my_waketech_edu/EYwTXYNrLUpLvhS2de6t3yMBY8bnXXfIyU-Amp-WHV2fnw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZNYui9)
 -   [Discord.py Documentation](https://discordpy.readthedocs.io/en/stable/)
 
 ## Local Setup
@@ -13,9 +14,12 @@ Python 3.11 or newer is required. You can download it [here](https://www.python.
 1. Clone the repository to your local machine.
 2. `cd` into the project directory.
 3. `python -m venv env` to create a virtual environment.
-4. `pip install -r requirements.txt` to install the necessary dependencies.
-5. Make sure to rename `.env.example` to `.env` and replace the placeholder value of `API_KEY` with your actual API key.
-6. Start the bot with `python -m bot`.
+4. Run this command:
+    - If you're on macOS/Linux: `source ./env/bin/activate`
+    - If you're on Windows: `env\Scripts\activate.bat` (cmd.exe) or `env\Scripts\Activate.ps1` (PowerShell)
+5. `pip install -r requirements.txt` to install the necessary dependencies.
+6. Make sure to rename `.env.example` to `.env` and replace the placeholder value of `API_KEY` with your actual API key.
+7. Start the bot with `python -m bot`.
 
 ## VSCode Setup
 
