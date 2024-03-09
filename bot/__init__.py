@@ -1,5 +1,4 @@
-import discord
-from .constants import GUILD_ID
+import os
 from string import ascii_lowercase
 import random
 
@@ -13,7 +12,7 @@ tree = discord.app_commands.CommandTree(client)
 
 @client.event
 async def on_ready():
-    await tree.sync(guild=discord.Object(id=GUILD_ID))
+    await tree.sync(guild=discord.Object(id=os.environ["GUILD_ID"]))
 
     print(f"Logged in as {client.user}")
 
